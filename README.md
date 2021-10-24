@@ -43,10 +43,11 @@ The proposed system uses different data for the three modules. Each of these are
 
 ## Results
 #### Stage Height Estimation
-Our experiments showed that features such as vegetation and soil type have little effect on short 
-term flooding and can be disregarded for the prediction module. Testing multiple models showed that 
-single output LSTM models perform better than single shot models. These models are stable upto lead 
-times of 4 days with a Nash-Sutcliffe Efficiency greater than 0.5.
+We tested our proposed system for Cedar Rapids, Iowa. Our experiments showed that features such as 
+vegetation and soil type have little effect on short term flooding and can be disregarded for the 
+prediction module. Testing multiple models showed that single output LSTM models perform better 
+than single shot models. These models are stable upto lead times of 4 days with a Nash-Sutcliffe 
+Efficiency greater than 0.5.
 
 #### Flood Mapping
 Each pixel of the inundation map raster is compared with a reference map created by ground-truthing 
