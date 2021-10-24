@@ -28,7 +28,7 @@ predicted by the first module.
 #### Modules :
 1. Inundation Mapping - HAND algorithm to map inundated areas for a given stage height(as proposed in [this](http://doi.org/10.1029/2019WR024837) paper).
 2. River Stage Estimation - Recurring neural networks (LSTMs) to predict the maximum stage height based on weather conditions of the last 3 days. 
-3. Deforestation Analysis - Land use classification to identify the changing features of the area over time to help identify the areas affected by deforestation.
+3. Deforestation Analysis - Land use classification to identify the changing features of the area over time and identify the areas affected by deforestation.
 
 
 ## Datasets
