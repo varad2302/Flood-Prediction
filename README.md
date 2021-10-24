@@ -34,12 +34,12 @@ Modules :
 ## Datasets
 The proposed system uses different data for the three modules. Each of these are collected from different sources and processed separately. The module-wise requirements of data are as follows :
 1. Inundation Mapping:
-    a. Digital Elevation Maps from United States Geological Survey
+    1. Digital Elevation Maps from United States Geological Survey
 2. River Stage Estimation:
-    a. Meteorological data from National Climatic Data Center
-    b. River stage height data from United States Army Corps of Engineers’ river gage data.
+    1. Meteorological data from National Climatic Data Center
+    2. River stage height data from United States Army Corps of Engineers’ river gage data.
 3. Deforestation Analysis:
-    a. Satellite images - Landsat 8, Landsat 5 from USGS Earth Explorer
+    1. Satellite images - Landsat 8, Landsat 5 from USGS Earth Explorer
 
 ## Results
 ### Stage Height Estimation
